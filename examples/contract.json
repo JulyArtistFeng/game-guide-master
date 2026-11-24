@@ -1,0 +1,32 @@
+{
+  "skill": "game-guide-master",
+  "example_only": true,
+  "game": {
+    "name": "示例游戏",
+    "version": "1.0",
+    "mode": "单机"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://example.com/patch",
+      "locator": "section 2",
+      "version": "1.0",
+      "origin_id": "official-patch",
+      "primary": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "仅为结构示例，非真实攻略结论",
+      "status": "verified",
+      "verification_basis": "official",
+      "source_ids": [
+        "S1"
+      ],
+      "publish_as_fact": true
+    }
+  ],
+  "images": []
+}

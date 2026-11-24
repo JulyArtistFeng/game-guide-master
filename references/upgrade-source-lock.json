@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-24",
+  "skill": "game-guide-master",
+  "version": "2.0",
+  "baseline_commit": "92ed2eb828ff1782959369bdc6271af82613016f",
+  "owns": "将多源资料核验为有版本边界、真实配图、可执行步骤与可回读的游戏攻略文档。",
+  "does_not_own": "不剪辑视频、不制造游戏机制、不用生成图证明游戏事实。",
+  "admission_rule": "攻略资料采集、文档结构/OCR提取及带来源研究的开源组件；工具只支撑取证，不代替游戏事实。",
+  "ranking_scope": "GitHub Repository Search（每查询按stars降序取前50项）+ 定向核查知名相关项目；按本技能职责与许可/维护状态筛选后，在本次候选池内按实际stars排序取五项。不是对全GitHub的穷尽排名，也不是文学/视觉/视频质量排行榜。",
+  "queries": [
+    {
+      "q": "document extraction markdown",
+      "total_count": 161,
+      "incomplete_results": false,
+      "fetched_items": 50
+    },
+    {
+      "q": "game guide wiki",
+      "total_count": 140,
+      "incomplete_results": false,
+      "fetched_items": 50
+    }
+  ],
+  "targeted_candidates": [
+    "firecrawl/firecrawl",
+    "microsoft/markitdown",
+    "PaddlePaddle/PaddleOCR",
+    "docling-project/docling",
+    "assafelovic/gpt-researcher"
+  ],
+  "sources": [
+    {
+      "rank_in_admitted_candidates": 1,
+      "repository": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars_snapshot": 208523,
+      "commit": "c13b60d96c2e0d586b9abacb7c20ee4f81d391dc",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "174b2fd91f1b7375c1312e7197c5772ccbb1a3a995d454c8b2e7ca85bd83fa25",
+          "bytes": 20894
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "9b4649365c4f29d8f41301f4cda1e5bd9da51cf1bbb19ab9d568ff57d56e3b33",
+          "bytes": 35064
+        }
+      ],
+      "focus": "网页结构化采集",
+      "adapted_for_this_skill": "保存原URL、时间、范围和提取缺口；采集成功不等于内容正确"
+    },
+    {
+      "rank_in_admitted_candidates": 2,
+      "repository": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "stars_snapshot": 198204,
+      "commit": "ed178952a6672abdfd35b5f9e76a80b6cefc086e",
+      "license": "MIT",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "7d27ea30126c35a18fb7392454a30da72f62def2cc0cd222926e6207ac82a9d8",
+          "bytes": 21417
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141
+        }
+      ],
+      "focus": "多格式资料转结构化文本",
+      "adapted_for_this_skill": "提取后核表格、图注和图片内文字，不能用转换器替代阅读"
+    },
+    {
+      "rank_in_admitted_candidates": 3,
+      "repository": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "stars_snapshot": 93128,
+      "commit": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+      "license": "Apache-2.0",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "63d76041f1dcb84e1dd141d45dc8dec5d86a3e357fe98bf8432ad2721c0ced90",
+          "bytes": 25918
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "3840c5c0c61c294264d2dd77b8777be6ddd90121ef4e0e64abcd22edea581d6e",
+          "bytes": 11376
+        }
+      ],
+      "focus": "图片文字与版面线索",
+      "adapted_for_this_skill": "OCR数字、负号、百分号与列对齐需回原图核对，低置信不自动发布"
+    },
+    {
+      "rank_in_admitted_candidates": 4,
+      "repository": "docling-project/docling",
+      "url": "https://github.com/docling-project/docling",
+      "stars_snapshot": 70969,
+      "commit": "22b80a43d1baf8f7d51ae9b690e33b917a983ff4",
+      "license": "MIT",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "7640889422b17366a6d4420d2f631575c06facac391e5221fb177291e8665efe",
+          "bytes": 8857
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c",
+          "bytes": 1072
+        }
+      ],
+      "focus": "文档布局与表格结构",
+      "adapted_for_this_skill": "保留表头、跨页和单元格关系，避免把邻列数值拼成一条机制"
+    },
+    {
+      "rank_in_admitted_candidates": 5,
+      "repository": "assafelovic/gpt-researcher",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "stars_snapshot": 30887,
+      "commit": "9d39a2f86d55e264f69dfeff2365f27fad3c1144",
+      "license": "Apache-2.0",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README-ja_JP.md",
+          "sha256": "726a48254fc165c7ac61c5ad76d4951fccaa5afb18a5a4142cec933dacfe8679",
+          "bytes": 14100
+        },
+        {
+          "path": "README-ko_KR.md",
+          "sha256": "9beb32688d987962bf19b4c722676d37c9f5bfc0a6dd84f8d0b5ada2c68e6b15",
+          "bytes": 17254
+        },
+        {
+          "path": "README-ru_RU.md",
+          "sha256": "9a534359691888aeded300f9de3e4c2ebb83b0b317ea30939f8353b7d06792f9",
+          "bytes": 23522
+        },
+        {
+          "path": "README-zh_CN.md",
+          "sha256": "65b6aced222f184bfb1670c3ead2404ae57bfcdd0603be5311988158837af949",
+          "bytes": 18413
+        },
+        {
+          "path": "README.md",
+          "sha256": "39a85391420d50afc52c8064378a60cf2d16ff6bebb07e84149b6510f9611179",
+          "bytes": 19751
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        }
+      ],
+      "focus": "多源研究与来源汇总",
+      "adapted_for_this_skill": "为每条重要结论绑定原始证据；多个转载不是独立来源"
+    }
+  ],
+  "excluded_or_not_top_five": [
+    "低星具体游戏 Wiki 可用作游戏内容证据，但其内容不能泛化到别的游戏；本轮五项为资料与取证组件，不伪称五个完整攻略写作智能体。"
+  ],
+  "reuse_policy": "Only independently restated methods and project capability boundaries are integrated. No upstream code, templates, models or weights are vendored; no model installation, API call, commercial service or content publication is performed by this research."
+}
